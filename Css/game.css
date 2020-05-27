@@ -34,8 +34,8 @@ body {
 /*The car*/
 .car{
     position: absolute;
-    height: 60px;
-    width: 40px;
+    height: 40px;
+    width: 20px;
     border-radius: 5px;
     box-shadow: 0px 1px 8px 0px black;
 }
