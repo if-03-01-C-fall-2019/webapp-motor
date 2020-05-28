@@ -2,7 +2,7 @@ $(function () {
 
 	var anim_id;
 
-	//HTML variablen wird noch zu einer Klasse gemacht
+	//HTML variablen will be a class later
 	let container = $('#container');
 	let car = $('#car');
 	let car_1 = $('#car_1');
