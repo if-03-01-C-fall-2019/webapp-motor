@@ -158,7 +158,7 @@ $(function () {
 	}
 
 
-	//Colossions
+		//Colossions
 	function collision($div1, $div2) {
     //my car
 		let x1 = $div1.offset().left;
