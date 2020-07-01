@@ -5,15 +5,39 @@
     <title>Traffic racer</title>
     <link href="game.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="../Css/game.css">
+    <link rel="stylesheet" type="text/css" href="../Css/main.css">
   </head>
-
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Start</a></li>
+        <li><a href="../About-Us/about.html">About</a></li>
+        <li><a href="combustion.html">Combustion Engine</a></li>
+        <li><a href="elctric.html">Electric Engine</a></li>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="../About-Us/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="logo">
+      <img src="../Img/logo.png" alt="Das Logo">
+    </div>
+  </header>
   <body>
     <div id="controls">
-      <p></p>
+      <h2>Controls</h2>
+      <p>faster: W, Up</p>
+      <p>slower: S, Down</p>
+      <p>left: A, Left</p>
+      <p>right: D, Right</p>
     </div>
     <div id="score_div">
-    Score: <span id="score">0</span>
-</div>
+      <p>Score: <span id="score">0</span></p>
+    </div>
+    <div id="login">
+      <h2>Login</h2>
+      <input id="username">
+      <input id="passwort">
+    </div>
     <div id="container">
         <div id="line_1" class="line"></div>
         <div id="line_2" class="line"></div>
@@ -24,21 +48,21 @@
 
         </div>
         <div id="car_1" class="car">
-          <img src="../Img/gamecar1.1.png" width="100px" height="120px">
+          <img src="../Img/gamecar1.5.png" width="50px" height="100px">
 
         </div>
         <div id="car_2" class="car">
-          <img src="../Img/gamecar1.1.png" width="100px" height="120px">
+          <img src="../Img/gamecar1.5.png" width="50px" height="100px">
 
         </div>
         <div id="car_3" class="car">
-          <img src="../Img/gamecar1.1.png" width="100px" height="120px">
+          <img src="../Img/gamecar1.5.png" width="50px" height="100px">
 
         </div>
         <div id="restart_div">
             <button id="restart">
-                Restart<br>
-                <small class="small_text">(press Enter)</small>
+              <p>Restart</p>
+              <p class="small_text">(press Enter)</p>
             </button>
         </div>
     </div>
