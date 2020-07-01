@@ -104,13 +104,3 @@ body {
     padding: 10px;
     box-shadow: 4px 4px 0px 1px #808080;
 }
-#login{
-  position: absolute;
-  margin-top: 15%;
-  margin-left: 70%;
-  font-size: 35px;
-  background-color: white;
-  color: #454545;
-  padding: 10px;
-  box-shadow: 4px 4px 0px 1px #808080;
-}
